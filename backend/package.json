@@ -1,0 +1,23 @@
+{
+    "name": "tumediabackend",
+    "description": "tumediabackend",
+    "version": "1.0.0",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "author": "Google LLC",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "@google-cloud/storage": "^7.14.0",
+        "body-parser": "^1.20.0",
+        "dotenv": "^16.4.5",
+        "express": "^4.17.1",
+        "multer": "^1.4.5-lts.1",
+        "pg": "^8.10.0"
+    }
+}
